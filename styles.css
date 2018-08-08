@@ -1,0 +1,35 @@
+.form {
+  width: 20vw;
+}
+
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 5px;
+}
+
+form > * {
+  margin-top: 10px;
+}
+
+label {
+  display: inline-block;
+}
+
+.user-information label, .user-information input {
+  width: 45%;
+}
+
+.subscription {
+  width: 15vw;
+}
+
+.user-information input, button {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+button {
+  width: 48%;
+  cursor: pointer;
+}

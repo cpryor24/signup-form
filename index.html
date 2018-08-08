@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>Signup Form</title>
+</head>
+<body>
+  <main>
+    <fieldset class="form">
+      <legend>Signup Form</legend>
+      <form>
+        <div class="user-information">
+          <label for="email">Email: </label>
+          <input type="email" id="email" name="email"/>
+        </div>
+        <div class="user-information">
+          <label for="password">Password: </label>
+          <input type="password" id="password" name="password"/>
+        </div>
+        <div class="user-information">
+          <label for="github">Github Username: </label>
+          <input type="text" id="github" name="github" />
+        </div>
+        <fieldset class="subscription">
+          <legend>Subscription</legend>
+          <label for="pro">Pro</label>
+          <input type="radio" name="sub" value="Pro"/>
+          <label for="enterprise">Enterprise</label>
+          <input type="radio" name="sub" value="Enterprise"/>
+          <label for="free" >Free</label>
+          <input type="radio" name="sub" value="Free"/>
+        </fieldset>
+        <div>
+          <label for="rememberMe">Remember Me</label>
+          <input type="checkbox" id="rememberMe" value="Remember Me"/>
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </fieldset>
+  </main>
+
+</body>
+</html>
